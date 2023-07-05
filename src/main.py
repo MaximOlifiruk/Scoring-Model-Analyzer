@@ -27,7 +27,7 @@ data, sidebar_data = display_tables(tables)
 display_data_info(data)
 display_column_values(data)
 display_visualization(data)
-display_correlations(data)
+#display_correlations(data)
 numeric_columns, label_columns, ordinal_columns, onehot_columns = create_columns(data)
 display_preparation(numeric_columns, label_columns, ordinal_columns, onehot_columns, data, tables)
 
